@@ -28,8 +28,19 @@ const Transparency = () => (
         except when required to by law.
       </p>
       <p>
-        This website does not use cookies and does not collect any analytics
-        or tracking data.
+        I use{' '}
+        <a
+          href="https://seline.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline decoration-neutral-300 underline-offset-4 transition-colors hover:decoration-ink"
+        >
+          seline.com
+        </a>{' '}
+        — a privacy-friendly and cookie-less analytics solution — for tracking.
+        All site measurement is carried out absolutely anonymously. Cookies are
+        not set and no personal data is collected. This helps me aggregate
+        useful data for improving the site while preserving your privacy.
       </p>
       <p>
         My website may link to external sites that are not operated by me.

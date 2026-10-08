@@ -1,10 +1,13 @@
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
 import Link from 'next/link';
+import Script from 'next/script';
 
 import { Glyph } from '@/components/Glyph';
 
 import './globals.css';
+
+const SELINE_TOKEN = 'a235d8451ec83f4';
 
 const uxum = localFont({
   src: [
@@ -82,6 +85,11 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => (
           </div>
         </footer>
       </div>
+      <Script
+        src="https://cdn.seline.com/seline.js"
+        data-token={SELINE_TOKEN}
+        strategy="afterInteractive"
+      />
     </body>
   </html>
 );
